@@ -7,28 +7,26 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatInputModule } from '@angular/material/input';
+import { MatChipsModule } from '@angular/material/chips';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
 @NgModule({
   declarations: [CardHoverDirective],
-  imports: [
-    CommonModule,
-    MatCardModule,
-    MatButtonModule,
-    MatIconModule,
-    MatListModule,
-    MatTooltipModule,
-    MatInputModule,
-  ],
   exports: [
+    CommonModule,
+    ReactiveFormsModule,
+
     CardHoverDirective,
-    MatCardModule,
+
     MatButtonModule,
+    MatCardModule,
+    MatChipsModule,
     MatIconModule,
+    MatInputModule,
     MatListModule,
     MatTooltipModule,
-    MatInputModule,
   ]
 })
 export class SharedModule { }

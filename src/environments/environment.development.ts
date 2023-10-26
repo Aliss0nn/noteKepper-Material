@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  API_URL: 'https://note-keeper-api-52a5.onrender.com/api',
+  API_URL: 'https://note-keeper-api-6mj5.onrender.com',
 };

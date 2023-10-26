@@ -5,3 +5,21 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+
+.snackbar-sucesso {
+  --mdc-snackbar-container-color: #00ff48;
+  --mdc-snackbar-supporting-text-color: #000000;
+  --mat-snack-bar-button-color: white;
+}
+
+.snackbar-aviso {
+  --mdc-snackbar-container-color: #f7fa4f;
+  --mdc-snackbar-supporting-text-color: #000000;
+  --mat-snack-bar-button-color: #000000;
+}
+
+.snackbar-erro {
+  --mdc-snackbar-container-color: #cf0e00;
+  --mdc-snackbar-supporting-text-color: #000000;
+  --mat-snack-bar-button-color: white;
+}

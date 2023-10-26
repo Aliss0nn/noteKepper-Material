@@ -6,12 +6,14 @@ import { CategoriasRoutingModule } from './categorias-routing.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { CategoriasService } from './services/categoria.service';
+import { EditarCategoriasComponent } from './editar-categorias/editar-categorias.component';
+import { ExcluirCategoriasComponent } from './excluir-categorias/excluir-categorias.component';
 
 
 
 @NgModule({
   declarations: [ 
-    InserirCategoriaComponent, ListarCategoriasComponent
+    InserirCategoriaComponent, ListarCategoriasComponent, EditarCategoriasComponent, ExcluirCategoriasComponent
   ],
   imports: [
     CommonModule,
